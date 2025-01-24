@@ -38,4 +38,9 @@ class AuthController
 
         return response()->json($request->user()->toArray(), 200);
     }
+
+    public function checkToken(Request $request)
+    {
+        return response()->json($request->user()->toArray(), 200);
+    }
 }

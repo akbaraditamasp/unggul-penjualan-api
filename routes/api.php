@@ -4,6 +4,9 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\TransactionController;
+use App\Models\Customer;
+use App\Models\Product;
+use App\Models\Transaction;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix("auth")
@@ -46,3 +49,15 @@ Route::prefix("transaction")
         Route::post("/", "create");
         Route::get("/", "index");
     });
+
+Route::middleware("auth:sanctum")->get("/stats", function () {
+    $customerCount = Customer::count();
+    $productCount = Product::count();
+    $transactionCount = Transaction::count();
+
+    return response()->json([
+        "customer" => (int) $customerCount,
+        "product" => (int) $productCount,
+        "transaction" => (int) $transactionCount,
+    ]);
+});

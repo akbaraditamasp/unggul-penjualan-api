@@ -26,6 +26,15 @@ Dokumentasi lengkap REST API dapat diakses melalui:
 
 ---
 
+## Akun Demo
+
+Gunakan akun berikut untuk mencoba fitur aplikasi:
+
+-   **Email:** admin@unggulsolusi.com
+-   **Password:** 123456
+
+---
+
 ## Repositori Terkait
 
 -   **Frontend Web:** [unggul-penjualan-web](https://github.com/akbaraditamasp/unggul-penjualan-web)

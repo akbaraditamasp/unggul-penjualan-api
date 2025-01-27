@@ -29,7 +29,7 @@ Ini adalah repository backend dari aplikasi penjualan, yang dikembangkan sebagai
 ## Demo
 
 -   **Web:** [unggul.njin.co.id](https://unggul.njin.co.id)
--   **APK (Android):** [Download APK]({placeholder})
+-   **APK (Android):** [Download APK](https://github.com/akbaraditamasp/unggul-penjualan-mobile/releases/download/1.0.0/application-4e25498c-3e34-4eff-854b-9794ff0af42f.apk)
 
 ---
 

@@ -19,6 +19,13 @@ Ini adalah repository backend dari aplikasi penjualan, yang dikembangkan sebagai
 
 ---
 
+## Dokumentasi API
+
+Dokumentasi lengkap REST API dapat diakses melalui:  
+[https://unggul.njin.co.id/docs](https://unggul.njin.co.id/docs)
+
+---
+
 ## Repositori Terkait
 
 -   **Frontend Web:** [unggul-penjualan-web](https://github.com/akbaraditamasp/unggul-penjualan-web)
